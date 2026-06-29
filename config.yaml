@@ -1,0 +1,25 @@
+# CPA - CLI Proxy API 部署配置
+host: '0.0.0.0'
+port: 8317
+
+auth-dir: '/root/.cli-proxy-api'
+
+api-keys:
+  - 'sk-cpa-key-001'
+
+debug: false
+
+remote-management:
+  allow-remote: true
+  disable-control-panel: false
+
+usage-statistics-enabled: false
+
+proxy-url: ''
+
+request-retry: 3
+
+routing:
+  strategy: 'round-robin'
+
+ws-auth: true
